@@ -1,7 +1,7 @@
 
 # Start-up
 
-This repository is personalized.
+**This repository is personalized.**
 
 After running `Main.sh`
 
