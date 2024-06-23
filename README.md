@@ -28,6 +28,10 @@ Into **`nvim`**
 :PlugInstall
 ```
 
+Check out the LSP below and add new languages in exactly the same way.
+
+[LSP](https://github.com/neoclide/coc.nvim/wiki/Language-servers#example-language-server-configuration)
+
 ```vim
 :CocInstall coc-clangd
 :CocInstall coc-pyright
