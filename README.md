@@ -1,32 +1,32 @@
 
 # Start-up
 
-- `neovim`, `tmux`, `zsh`
+- `neovim(LazyVim)`, `tmux`, `zsh`
 
 ---
 ### Table of contents
 
-- [Neovim](#How-to-setup-neovim)
 - [zsh & Oh My Zsh](#How-to-setup-Zsh)
+- [tmux](#tmux-setup-file)
+- [Neovim](#How-to-setup-neovim)
 
 ---
 
-# How to setup neovim
+# How to setup neovim(LazyVim)
 
 ## Requirements
 
 - **Neovim >= v0.7.2** <- Manual Install
+
+```bash
+sudo apt-get install -y neovim
+```
 
 https://github.com/neovim/neovim
 
 - **Nodejs >= v12.12**
 
 https://deb.nodesource.com/
-
-```bash
-curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt-get install -y nodejs npm python3-neovim
-```
 
 ## Settings
 
@@ -55,8 +55,7 @@ https://github.com/neoclide/coc.nvim/wiki/Language-servers
 
 https://github.com/ryanoasis/nerd-fonts/blob/master/readme_ko.md
 
-
-# How to setup Zsh
+#How to setup Zsh
 
 ## Requirements
 
@@ -118,3 +117,7 @@ source .zshrc
 ```bash
 p10k configure
 ```
+
+
+# tmux-setup-file
+
