@@ -33,7 +33,7 @@
 ## 설치
 
 ```bash
-git clone https://github.com/YOUR_ID/Settings ~/.dotfiles
+git clone https://github.com/R4mbb/Settings.git ~/.dotfiles
 cd ~/.dotfiles
 bash install.sh
 ```
